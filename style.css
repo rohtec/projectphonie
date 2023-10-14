@@ -1,0 +1,323 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 99vh;
+	background-color:rgb(245,245,245);
+    align-items: center;
+    display: flex;
+}
+
+.child-1, .child-2 {
+   
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen  and (max-width: 520px) {
+
+.container {
+   
+	margin: 0 auto;
+	width: 85vw;
+	height: 52vh;
+	border-radius: 15px;
+    flex-wrap: wrap;
+    box-shadow: 4px 4px 28px RGBA(59, 111, 241,0.6);
+}
+
+h1 { 
+   
+    font-family: "Work Sans", sans-serif;
+    color: #3b6ff1;
+    font-size: 4.4rem;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    color: rgba(59,111,241,0.45);
+    font-size: 1.4rem;
+    font-weight: 100;
+    letter-spacing: 0.9px;
+    font-family: "Work Sans", sans-serif;
+}
+.text1 {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text2 {
+    
+    margin:10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+        padding: 13px 40px;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        color: #000;
+        font-size: 0.95rem;
+        font-family: Poppins;
+        caret-color:rgba(59,111,241,1) ;
+        caret-shape: block;
+        line-height: 1;      
+}
+
+    h3 {
+        color: rgba(59,111,241,0.9);
+        font-size: 1.10rem;
+        font-weight: 100;
+        letter-spacing: 0.97px;
+        font-family: "Work Sans", sans-serif;
+    }
+    h6 {
+        color: rgba(59,111,241,0.9);
+        font-size: 0.45rem;
+        font-weight: 100;
+/*        font-family: "Work Sans", sans-serif;*/
+    }
+    .text {
+       
+        margin: 10px 0 20px 0;
+    }
+    button {
+        padding: 22px 80px;
+        border-radius: 15px;
+        border: none;
+        background-color: #3b6ff1;
+        color: white;
+        font-family: "Work Sans", sans-serif;
+        font-size: 0.76rem;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+    }
+
+    button:hover {
+        background-color: rgba(59,111,241,0.9);
+    }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+
+-webkit-appearance:none;
+}
+input::placeholder {
+        color: rgba(59,111,241,0.9);
+        font-size: 0.87rem;
+        font-weight: 400;
+        font-family: 'Poppins'; 
+        padding-left: 20px;
+    }
+
+  
+}
+@media screen and (min-width: 505px) and (max-width: 899px) {
+    .container {
+    
+    margin: 0 auto;
+    width: 85vw;
+    height: 56vh;
+    border-radius: 15px;
+    box-shadow: 4px 4px 28px RGBA(59, 111, 241,0.6);
+   /* display: flex;
+    flex-direction: column;*/
+    flex-wrap: wrap;
+}
+h1 { 
+    font-family: "Work Sans", sans-serif;
+    color: #3b6ff1;
+    font-size: 4.4rem;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    color: rgba(59,111,241,0.45);
+    font-size: 1.4rem;
+    font-weight: 100;
+    letter-spacing: 0.9px;
+    font-family: "Work Sans", sans-serif;
+}
+.text1 {
+
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text2 {
+    
+    margin:10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+      padding: 18px 90px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        color: #000;
+        font-size: 0.95rem;
+        font-family: Poppins;
+        caret-color:rgba(59,111,241,1) ;
+        caret-shape: block;
+        line-height: 1;      
+}
+
+    h3 {
+        color: rgba(59,111,241,0.9);
+        font-size: 1.10rem;
+        font-weight: 100;
+        letter-spacing: 0.97px;
+        font-family: "Work Sans", sans-serif;
+    }
+    h6 {
+        color: rgba(59,111,241,0.9);
+        font-size: 0.45rem;
+        font-weight: 100;
+        letter-spacing: 3.9px
+        font-family: "Work Sans", sans-serif;
+    }
+    .text {
+
+        margin: 10px 0 20px 0;
+    }
+    button{
+        padding: 22px 130px;
+        border-radius: 12px;
+        border: none;
+        background-color: #3b6ff1;
+        color: white;
+        font-family: "Work Sans", sans-serif;
+        font-size: 0.80rem;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+    }
+
+    button:hover {
+        background-color: rgba(59,111,241,0.9);
+    }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+
+-webkit-appearance:none;
+}
+input::placeholder {
+        color: rgba(59,111,241,1);
+        font-size: 0.87rem;
+        font-weight: 400;
+         font-family: 'Poppins'; 
+         padding-left: 20px;
+    }
+}
+
+@media screen and (min-width:900px) {
+
+
+.container {
+    
+    margin: 0 auto;
+    width: 600px;
+    height: 425px;
+    /*display: flex;
+    flex-direction: column;*/
+    flex-wrap: wrap;
+    border-radius: 15px;
+    box-shadow: 4px 4px 28px RGBA(59, 111, 241,0.6);
+
+}
+h1 { 
+    font-family: "Work Sans", sans-serif;
+    color: #3b6ff1;
+    font-size: 4.4rem;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    color: rgba(59,111,241,0.45);
+    font-size: 1.4rem;
+    font-weight: 100;
+    letter-spacing: 0.9px;
+    font-family: "Work Sans", sans-serif;
+}
+.text1 {
+
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text2 {
+    
+    margin:10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+      padding: 18px 90px;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        color: #000;
+        font-size: 0.95rem;
+        font-family: Poppins;
+        caret-color:rgba(59,111,241,1) ;
+        caret-shape: block;
+        line-height: 1;      
+}
+
+    h3 {
+        color: rgba(59,111,241,0.9);
+        font-size: 1.10rem;
+        font-weight: 100;
+        letter-spacing: 0.97px;
+        font-family: "Work Sans", sans-serif;
+    }
+    h6 {
+        color: rgba(59,111,241,0.9);
+        font-size: 0.45rem;
+        font-weight: 100;
+        letter-spacing: 3.9px
+        font-family: "Work Sans", sans-serif;
+    }
+    .text {
+
+        margin: 10px 0 20px 0;
+    }
+    button{
+        padding: 22px 130px;
+        border-radius: 15px;
+        border: none;
+        background-color: #3b6ff1;
+        color: white;
+        font-family: "Work Sans", sans-serif;
+        font-size: 0.80rem;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+    }
+
+    button:hover {
+        background-color: rgba(59,111,241,0.9);
+    }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+
+-webkit-appearance:none;
+}
+input::placeholder {
+        color: rgba(59,111,241,1);
+        font-size: 0.87rem;
+        font-weight: 400;
+         font-family: 'Poppins'; 
+         padding-left: 20px;
+    }
+}
